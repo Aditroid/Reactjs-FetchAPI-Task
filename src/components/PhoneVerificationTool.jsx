@@ -9,7 +9,7 @@ const PhoneVerificationTool = () => {
 
   return (
     <div className="fade-in max-w-4xl mx-auto">
-      {/* Header */}
+
       <div className="mb-8 flex items-center">
         <button 
           onClick={() => dataStore.setCurrentTool('home')}

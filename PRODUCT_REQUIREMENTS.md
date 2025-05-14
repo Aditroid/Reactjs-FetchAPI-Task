@@ -22,6 +22,8 @@ API Tools Hub is a web application that provides users with a collection of usef
 
 ### Development Tools
 - **ESLint**: A static code analysis tool for identifying problematic patterns in JavaScript code
+- **Jest**: A JavaScript testing framework
+- **React Testing Library**: Testing utilities for React components
 
 ## API Integrations
 

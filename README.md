@@ -230,6 +230,40 @@ npm run build
 npm run preview
 ```
 
+### Running Tests
+
+```bash
+# Run tests once
+npm test
+
+# Run tests in watch mode (for development)
+npm run test:watch
+```
+
+## Testing
+
+The project includes unit tests for critical components and functionality using Jest and React Testing Library. The tests cover:
+
+- Component rendering
+- User interactions
+- API integration
+- State management with MobX
+
+### Test Structure
+
+```
+src/
+└── __tests__/           # Test files
+    ├── WeatherTool.test.jsx    # Tests for the Weather Tool component
+    └── DataStore.test.js       # Tests for the MobX data store
+```
+
+### Testing Approach
+
+- **Component Tests**: Verify that components render correctly and respond to user interactions
+- **Store Tests**: Verify that the MobX store correctly manages state and handles API calls
+- **Mock Testing**: API calls are mocked to test success and error scenarios without making actual network requests
+
 ## Technologies Used
 
 - **React**: UI library
@@ -238,6 +272,8 @@ npm run preview
 - **Vite**: Build tool and development server
 - **TailwindCSS**: Utility-first CSS framework
 - **ESLint**: Code linting
+- **Jest**: JavaScript testing framework
+- **React Testing Library**: Testing utilities for React components
 
 ## License
 
